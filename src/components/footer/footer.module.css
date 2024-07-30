@@ -3,6 +3,7 @@
   background-color: var(--primary-color);
   justify-content: space-evenly;
   color: var(--text-white-color);
+  flex-wrap: wrap;
 }
 
 .footerContainer,
