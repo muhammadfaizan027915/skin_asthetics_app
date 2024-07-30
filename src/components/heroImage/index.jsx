@@ -3,7 +3,7 @@ import styles from "./heroImage.module.css";
 function HeroImage() {
   return (
     <img
-      src="src/assets/images/heroImage.jpg"
+      src="/assets/images/heroImage.jpg"
       className={styles.heroImage}
       alt="hero-image"
     />
