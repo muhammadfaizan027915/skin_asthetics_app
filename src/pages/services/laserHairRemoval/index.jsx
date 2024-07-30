@@ -1,3 +1,6 @@
+import Header from "../../../components/header";
+import Footer from "../../../components/footer";
+import HeroImage from "../../../components/heroImage";
 import AboutSection from "../../../components/aboutSection";
 import ServiceCard from "../../../components/cards/service";
 import { pageDetails, services } from "../../../utils/constants";
@@ -8,6 +11,8 @@ function LaserHairRemoval() {
 
   return (
     <div>
+      <Header />
+      <HeroImage />
       <div className={styles.contentContainer}>
         <AboutSection title={title} description={description} />
         <div className={styles.servicesContainer}>
@@ -21,6 +26,7 @@ function LaserHairRemoval() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

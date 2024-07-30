@@ -1,0 +1,33 @@
+.footerContainer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  justify-content: space-evenly;
+  color: var(--text-white-color);
+}
+
+.footerContainer,
+.footerItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerLink,
+.footerLink:hover,
+.footerLink:active,
+.footerLink:visited {
+  text-decoration: none;
+  color: var(--text-white-color);
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footerContainer,
+  .footerItem {
+    flex-direction: column;
+    text-align: center;
+  }
+}
