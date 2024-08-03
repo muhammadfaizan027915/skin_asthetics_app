@@ -1,0 +1,10 @@
+.courseRegistrationContainer {
+  background-color: var(--primary-color);
+  color: var(--text-white-color);
+  padding-block: 2rem;
+  margin-bottom: 3rem;
+}
+
+.courseRegistrationTitle {
+  text-align: center;
+}

@@ -208,3 +208,41 @@ export const jobRoles = [
     ],
   },
 ];
+
+export const coursesList = [
+  {
+    title: "Level 7 Diploma in Beauty Therapy – QLS Endorsed",
+    description:
+      "Advance your beauty therapy skills with our Level 7 Diploma, endorsed by QLS. This comprehensive course covers advanced techniques and knowledge, preparing you for a successful career in beauty therapy.",
+  },
+
+  {
+    title: "Beauty Therapy and Make-Up (Online) – CPD Accredited",
+    description:
+      "This online course is perfect for those looking to enhance their beauty therapy and make-up skills from the comfort of their home. Accredited by CPD, it offers flexible learning opportunities.",
+  },
+
+  {
+    title: "Diploma in Dermatology & Skincare at QLS Level 5",
+    description:
+      "Our Level 5 Diploma in Dermatology & Skincare provides in-depth knowledge and practical skills in skin care and dermatology, endorsed by QLS. Ideal for those pursuing a specialized career in skincare.",
+  },
+
+  {
+    title: "Level 3 Diploma in Beauty Therapy – CPD Certified Training",
+    description:
+      "Begin your journey in beauty therapy with our Level 3 Diploma. This CPD certified course covers essential beauty therapy techniques and knowledge, setting the foundation for your career.",
+  },
+
+  {
+    title: "Level 5 Diploma in Dermatology & Skincare – QLS Endorsed",
+    description:
+      "Our QLS endorsed Level 5 Diploma offers advanced training in dermatology and skincare, equipping you with the expertise needed to excel in the skincare industry.",
+  },
+
+  {
+    title: "Aesthetics Skincare – CPD Certified",
+    description:
+      "This CPD certified course in Aesthetics Skincare provides comprehensive training in advanced skincare techniques, perfect for professionals looking to expand their skills.",
+  },
+];

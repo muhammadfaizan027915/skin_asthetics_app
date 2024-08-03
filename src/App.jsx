@@ -8,8 +8,8 @@ function App() {
     <>
       {/* <Home /> */}
       {/* <LaserHairRemoval /> */}
-      <Careers />
-      {/* <Academy /> */}
+      {/* <Careers /> */}
+      <Academy />
     </>
   );
 }

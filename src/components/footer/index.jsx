@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className={styles.footerContainer}>
       <div className={styles.footerItem}>
-        <Mail />
+        <Mail color="#ffd700" />
         <a
           className={styles.footerLink}
           href="mailto:contact@serineskinesthetics.com"
@@ -14,25 +14,25 @@ function Footer() {
         </a>
       </div>
       <div className={styles.footerItem}>
-        <MapPin />
+        <MapPin color="#ffd700" />
         <p>House 1, Street3, Lane 10, Hostel City park Road Islamabad</p>
       </div>
 
       <div className={styles.footerItem}>
-        <Phone />
+        <Phone color="#ffd700" />
         <a className={styles.footerLink} href="tel:+923143626338">
           +923143626338
         </a>
       </div>
 
       <div className={styles.footerItem}>
-        <Facebook />
+        <Facebook color="#ffd700" />
         <a className={styles.footerLink} href="#">
           Facebook
         </a>
       </div>
       <div className={styles.footerItem}>
-        <Instagram />
+        <Instagram color="#ffd700" />
         <a className={styles.footerLink} href="#">
           Instagram
         </a>

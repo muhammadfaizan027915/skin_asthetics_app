@@ -1,0 +1,17 @@
+.coursesSectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.coursesListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .coursesSectionHeading {
+    text-align: center;
+  }
+}

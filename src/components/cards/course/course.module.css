@@ -1,0 +1,34 @@
+.courseCardContainer {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  transition: box-shadow 100ms linear;
+  cursor: pointer;
+  width: calc(33% - 1rem);
+}
+
+.courseCardContainer:hover {
+  box-shadow: 0px 8px 10px var(--shadow-color);
+}
+
+.courseCardTitle {
+  font-size: 1.6rem;
+}
+
+.courseDescription {
+  text-align: justify;
+  margin-top: 0.5rem;
+  color: var(--text-gray-color);
+}
+
+@media (max-width: 986px) {
+  .courseCardContainer {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .courseCardContainer {
+    width: 100%;
+  }
+}
