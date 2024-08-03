@@ -17,6 +17,9 @@ function LaserHairRemoval() {
             <ServiceCard key={index} {...service} />
           ))}
         </div>
+        <div className={styles.appointmentContainer}>
+          <button className={"button btnPrimary"}>Book an Appointment</button>
+        </div>
       </div>
     </Layout>
   );
