@@ -1,0 +1,19 @@
+.jobRoleContainer,
+.jobRoleDuties {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.jobRoleTitle {
+  margin-bottom: 0.5rem;
+}
+
+.jobRoleDescription {
+  line-height: 1.5;
+  max-width: 986px;
+}
+.jobRoleDuties {
+  gap: 0.5rem;
+  margin-top: 0.825rem;
+}

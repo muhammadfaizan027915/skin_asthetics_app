@@ -1,9 +1,9 @@
-.aboutSectionContainer {
+.sectionHeaderContainer {
   text-align: center;
 }
 
-.aboutDescription {
-  font-size: 0.85rem;
+.sectionDescription {
+  font-size: 1rem;
   color: var(--text-gray-color);
   line-height: 1.5;
   max-width: 760px;
@@ -11,10 +11,19 @@
   margin-top: 1rem;
 }
 
+.sectionTitle {
+  font-size: 2.2rem;
+}
+
+.sectionSubTitle {
+  font-size: 2rem;
+  margin-top: 1rem ;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 960px) {
-  .aboutDescription {
+  .sectionDescription {
     max-width: 560px;
   }
 }

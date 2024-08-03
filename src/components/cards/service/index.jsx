@@ -14,7 +14,7 @@ function ServiceCard({ imageUrl, name, tagline, onClick }) {
           <button
             type="button"
             onClick={onClick}
-            className={styles.serviceButton}
+            className={"primaryButton"}
           >
             Book an Appointment
           </button>

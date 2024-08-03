@@ -1,0 +1,18 @@
+.whyChooseUsContainer {
+  background: var(--primary-color);
+  padding: 2.5rem;
+  margin-block: 1.5rem;
+  text-align: center;
+}
+
+.whyChooseUsHeading {
+  font-size: 1.8rem;
+  color: var(--text-white-color);
+  margin-bottom: 1.5rem;
+}
+
+.whyChooseUsCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -42,14 +42,6 @@
   margin-top: 1rem;
 }
 
-.serviceButton {
-  padding: 0.65rem 1rem;
-  color: var(--text-white-color);
-  background-color: var(--primary-color);
-  border: none;
-  border-radius: 0.35rem;
-}
-
 /* Media Queries */
 
 @media screen and (max-width: 960px) {

@@ -58,8 +58,7 @@ nav ul li .dropdown li {
 }
 
 @media (max-width: 768px) {
-  nav ul,
-  .header {
+  nav ul {
     flex-direction: column;
     align-items: center;
   }
@@ -70,5 +69,17 @@ nav ul li .dropdown li {
 
   nav ul li {
     margin: 10px 0;
+  }
+}
+
+@media (max-width: 986px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .logo {
+    text-align: center;
+    width: 100%;
   }
 }

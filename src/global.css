@@ -3,9 +3,10 @@
 :root {
   --primary-color: #990202;
   --shadow-color: #0000002f;
-  --border-color: #0000003e;
+  --border-color: #ffd700;
   --text-white-color: #ffffff;
   --text-gray-color: #0000009d;
+  --text-black-color: #000000;
 }
 
 *,
@@ -20,4 +21,29 @@ body,
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+}
+
+.contentContainer {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  margin-block: 2rem;
+  padding: 0 1.5rem;
+}
+
+.primaryButton {
+  font-size: 1rem;
+  padding: 0.65rem 1rem;
+  color: var(--text-white-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.primaryButton:hover {
+  background-color: var(--border-color);
+  color: var(--text-black-color);
 }

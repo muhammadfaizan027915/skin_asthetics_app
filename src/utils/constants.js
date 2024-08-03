@@ -6,7 +6,7 @@ export const pageDetails = {
   },
 };
 
-export const services = [
+export const hairServices = [
   {
     imageUrl: "/assets/images/cheek.jpg",
     name: "Cheek",
@@ -116,5 +116,95 @@ export const services = [
     imageUrl: "/assets/images/fullBack.jpg",
     name: "Full Back",
     tagline: "Complete hair removal for the back area.",
+  },
+];
+
+export const whyChooseUsList = [
+  {
+    title: "Experienced Professionals",
+    description:
+      "Our team consists of highly qualified and experienced aestheticians who are passionate about skincare and committed to providing exceptional service.",
+    imageUrl: "/assets/images/experiencedProfessioanls.jpg",
+  },
+
+  {
+    title: "Personalized Approach",
+    description:
+      "We believe in personalized care. We take the time to understand your unique skin concerns and develop a treatment plan tailored to your specific needs.",
+    imageUrl: "/assets/images/personalizedApproach.jpg",
+  },
+
+  {
+    title: "Cutting-Edge Technology",
+    description:
+      "We utilize the latest advancements in aesthetics technology to deliver the most effective and safe treatments available.",
+    imageUrl: "/assets/images/cuttingEdgeTechnology.jpg",
+  },
+
+  {
+    title: "Relaxing Environment",
+    description:
+      "Environment Our spa offers a tranquil and luxurious atmosphere, allowing you to unwind and escape the stresses of everyday life.",
+    imageUrl: "/assets/images/relaxingEnvironment.jpg",
+  },
+];
+
+export const servicesList = [
+  {
+    title: "Facials",
+    description:
+      "Deep cleansing, hydrating, anti-aging, and acne-treating facials tailored to your unique skin needs.",
+  },
+
+  {
+    title: "Chemical Peels",
+    description:
+      "Gentle to moderate peels to improve skin texture, tone, and reduce signs of aging.",
+  },
+
+  {
+    title: "Microneedling",
+    description:
+      "Minimally invasive treatment to stimulate collagen production for smoother, firmer skin.",
+  },
+
+  {
+    title: "Botox & Fillers",
+    description:
+      "Reduce wrinkles, fine lines, and enhance facial features for a more youthful appearance (**Disclaimer: Consult a healthcare professional for suitability**).",
+  },
+
+  {
+    title: "Laser Hair Removal",
+    description:
+      "Long-lasting hair reduction for a variety of skin tones and hair types.",
+  },
+];
+
+export const jobRoles = [
+  {
+    title: "Receptionist",
+    description:
+      "We are seeking a friendly and organized Receptionist to join our team.The Receptionist will be responsible for welcoming clients, answering phone calls, scheduling appointments, and maintaining office cleanliness.",
+    duties: [
+      "Welcome clients and visitors in a professional and courteous manner.",
+      "Answer phone calls and redirect them as necessary.",
+      "Schedule appointments and maintain appointment calendars.",
+      "Assist clients with inquiries and provide accurate information.",
+      "Maintain cleanliness and organization of the reception area.",
+    ],
+  },
+
+  {
+    title: "Lab Officer",
+    description:
+      "We are looking for a detail-oriented Lab Officer to join our team. The Lab Officer will be responsible for collecting blood samples, performing tests, and maintaining accurate records. Experience in phlebotomy and laboratory procedures is required.",
+    duties: [
+      "Collect blood samples from patients using appropriate techniques.",
+      "Perform laboratory tests, such as blood typing and cholesterol screening.",
+      "Maintaine accurate records of samples and test results.",
+      "Follow safety protocols and maintaine cleanliness in the lab.",
+      "Assist in the calibration and maintenance of lab equipment.",
+    ],
   },
 ];

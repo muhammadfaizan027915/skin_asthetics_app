@@ -1,0 +1,9 @@
+.servicesListContainer {
+  max-width: 986px;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.serviceItem {
+  margin-bottom: 1rem;
+}

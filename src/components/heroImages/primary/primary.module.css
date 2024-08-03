@@ -1,0 +1,28 @@
+.heroContainer {
+  position: relative;
+}
+
+.primaryHeroImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.heroTitle {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 986px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+}

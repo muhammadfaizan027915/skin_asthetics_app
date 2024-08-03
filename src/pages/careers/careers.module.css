@@ -1,0 +1,10 @@
+.jobRolesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.applicationDescription {
+  text-align: center;
+  margin-top:   2.5rem;
+}
