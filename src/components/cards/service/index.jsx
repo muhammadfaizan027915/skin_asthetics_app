@@ -1,6 +1,6 @@
 import styles from "./service.module.css";
 
-function ServiceCard({ imageUrl, name, tagline, onClick }) {
+function ServiceCard({ imageUrl, name, tagline, onClick, showCta }) {
   return (
     <div className={styles.serviceContainer}>
       <img src={imageUrl} alt={name} className={styles.serviceImage} />
@@ -11,13 +11,15 @@ function ServiceCard({ imageUrl, name, tagline, onClick }) {
         </div>
 
         <div className={styles.serviceFooter}>
-          <button
-            type="button"
-            onClick={onClick}
-            className={"primaryButton"}
-          >
-            Book an Appointment
-          </button>
+          {showCta && (
+            <button
+              type="button"
+              onClick={onClick}
+              className={"button btnPrimary"}
+            >
+              Book an Appointment
+            </button>
+          )}
         </div>
       </div>
     </div>

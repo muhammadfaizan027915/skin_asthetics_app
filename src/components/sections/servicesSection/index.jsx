@@ -14,7 +14,7 @@ function ServicesSection() {
 
       <ServicesList />
 
-      <a className={"primaryButton"}>Book an Appointment</a>
+      <a className={"button btnPrimary"}>Book an Appointment</a>
     </div>
   );
 }

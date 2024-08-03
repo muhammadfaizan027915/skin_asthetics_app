@@ -30,11 +30,9 @@ body {
   padding: 0 1.5rem;
 }
 
-.primaryButton {
+.button {
   font-size: 1rem;
   padding: 0.65rem 1rem;
-  color: var(--text-white-color);
-  background-color: var(--primary-color);
   border: none;
   border-radius: 0.35rem;
   cursor: pointer;
@@ -43,29 +41,38 @@ body {
   transition: background-color 200ms linear;
 }
 
-.primaryButton:hover {
+.btnPrimary {
+  color: var(--text-white-color);
+  background-color: var(--primary-color);
+}
+
+.btnPrimary:hover {
   background-color: var(--border-color);
   color: var(--text-black-color);
 }
 
-.secondaryButton {
-  font-size: 1rem;
-  padding: 0.65rem 1rem;
+.btnSecondary {
   color: var(--text-black-color);
   background-color: var(--border-color);
-  border: none;
-  border-radius: 0.35rem;
-  cursor: pointer;
-  width: fit-content;
-  text-decoration: none;
 }
 
-.field {
+input:not([type="checkbox"]):not([type="radio"]):not([type="button"]),
+select,
+textarea {
   margin-top: 0.5rem;
   width: 100%;
   min-height: 2.5rem;
   border-radius: 0.4rem;
   padding-inline: 0.65rem;
   font-family: "Roboto", sans-serif;
-  border: none;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not(
+    [type="button"]
+  ):focus-within,
+select,
+textarea:focus-within {
+  border: 2px solid var(--border-color);
 }

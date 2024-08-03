@@ -119,6 +119,43 @@ export const hairServices = [
   },
 ];
 
+export const permanentMakeupServices = [
+  {
+    imageUrl: "/assets/images/lipTint.jpg",
+    name: "Lip Tint",
+    tagline:
+      "Add a subtle, natural-looking tint to your lips for a beautiful, long-lasting color.",
+  },
+
+  {
+    imageUrl: "/assets/images/cheekTint.jpg",
+    name: "Cheek Tint",
+    tagline:
+      "Get a healthy, natural-looking flush on your cheeks with our semi-permanent cheek tint.",
+  },
+
+  {
+    imageUrl: "/assets/images/lashLift.jpg",
+    name: "Lash Lift",
+    tagline:
+      "Enhance your natural lashes with a lift that adds curl and definition without the need for extensions.",
+  },
+
+  {
+    imageUrl: "/assets/images/browLamination.jpg",
+    name: "Brow Lamination",
+    tagline:
+      "Sculpt and set your brows in the perfect shape with our brow lamination service.",
+  },
+
+  {
+    imageUrl: "/assets/images/browTint.jpg",
+    name: "Brow Tint",
+    tagline:
+      "Darken and define your brows with a tint that lasts for weeks, giving you a polished look.",
+  },
+];
+
 export const whyChooseUsList = [
   {
     title: "Experienced Professionals",

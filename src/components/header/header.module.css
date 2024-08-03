@@ -45,6 +45,7 @@ nav ul li .dropdown {
   left: 1rem;
   background-color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
 }
 
 nav ul li:hover .dropdown {
@@ -53,7 +54,7 @@ nav ul li:hover .dropdown {
 
 nav ul li .dropdown li {
   margin: 0;
-  width: 150px;
+  width: 200px;
   padding: 0.5rem;
 }
 

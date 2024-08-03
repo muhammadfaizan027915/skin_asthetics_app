@@ -23,7 +23,7 @@ function Careers() {
           To apply, please email your resume to: &nbsp; &nbsp;
           <a
             href="mailto:contact@sereneskinesthetics.com"
-            className="primaryButton"
+            className="button btnPrimary"
           >
             contact@sereneskinesthetics.com
           </a>

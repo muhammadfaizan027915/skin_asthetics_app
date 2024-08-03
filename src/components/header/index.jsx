@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 
 const Header = () => {
@@ -10,27 +10,31 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/book">Book An Appointment</a>
+            <Link to="/book">Book An Appointment</Link>
           </li>
           <li>
-            <a href="/careers">Careers</a>
+            <Link to="/careers">Careers</Link>
           </li>
           <li>
-            <a href="/services">Services</a>
+            <span>Services</span>
             <ul className={styles.dropdown}>
               <li>
-                <a href="/service1">Service 1</a>
+                <Link to={"/services/sermi-permanent-makeup"}>
+                  Semi-Permanent Makeup
+                </Link>
               </li>
               <li>
-                <a href="/service2">Service 2</a>
+                <Link to="/services/laser-hair-removal">
+                  Laser Hair Removal
+                </Link>
               </li>
             </ul>
           </li>
           <li>
-            <a href="/academy">Serene Academy</a>
+            <Link to="/academy">Serene Academy</Link>
           </li>
         </ul>
       </nav>

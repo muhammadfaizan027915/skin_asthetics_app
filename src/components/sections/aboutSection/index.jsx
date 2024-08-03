@@ -20,7 +20,7 @@ function AboutSection() {
           </p>
         </div>
         <div className={styles.aboutImageContainer}>
-          <img src="/assets/images/acne.jpg" className={styles.aboutImage} />
+          <img src="/assets/images/acne.jpg" alt="about-acne" className={styles.aboutImage} />
         </div>
       </div>
     </div>

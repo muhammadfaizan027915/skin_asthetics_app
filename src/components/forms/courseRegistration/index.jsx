@@ -19,7 +19,7 @@ function CourseRegistrationForm() {
       <div>
         <label>Our CPD Courses*</label>
         <div>
-          <select className={"field"}>
+          <select>
             <option>Level 7 Diploma in Beauty Therapy - QLS Endorsed</option>
             <option>
               Beauty Therapy and Make-Up (Online) - CPD Accredited
@@ -54,10 +54,10 @@ function CourseRegistrationForm() {
       <div>
         <label>Message *</label>
         <div>
-          <textarea rows="4" className={"field"}></textarea>
+          <textarea rows="4"></textarea>
         </div>
       </div>
-      <button type="submit" className={"secondaryButton"}>
+      <button type="submit" className={"button btnSecondary"}>
         Submit Application
       </button>
     </form>

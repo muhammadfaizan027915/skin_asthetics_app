@@ -1,8 +1,9 @@
 .serviceContainer {
   position: relative;
-  max-width: 280px;
+  max-width: 320px;
   width: calc(33% - 2rem);
   border-radius: 0.5rem;
+  background-color: var(--text-white-color);
   box-shadow: 0px 8px 10px var(--shadow-color);
   border: 1px solid var(--border-color);
   overflow: hidden;

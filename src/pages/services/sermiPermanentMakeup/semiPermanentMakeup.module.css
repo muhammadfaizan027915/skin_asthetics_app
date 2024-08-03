@@ -1,0 +1,39 @@
+.aboutSkinCareSection {
+  text-align: center;
+}
+
+.aboutSkinCardImage {
+  width: 700px;
+  height: 400px;
+}
+
+.servicesContainer {
+  padding: 2rem;
+  margin-block: 2rem;
+  background-color: var(--primary-color);
+}
+
+.servicesListContainer {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.servicesHeading {
+  text-align: center;
+  color: var(--text-white-color);
+}
+
+.appointmentContainer {
+  text-align: center;
+  margin: 3rem;
+}
+
+@media (max-width: 768px) {
+  .aboutSkinCardImage {
+    width: 100%;
+    object-fit: cover;
+  }
+}
